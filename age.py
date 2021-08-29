@@ -1,28 +1,31 @@
-print('Hello teacher,this is my application')
-print('Enter your name:')
-a=input()
-'Nikita'
-print('Enter your surname:')
-b=input()
-'Papok'
-print('Enter your age:')
-c=input()
-'23'
-print('Enter your date of birth:')
-d=input()
-'14/01/1998'
-print('Enter your gender:')
-e=input()
-'male'
-print('Enter your place of birth:')
-f=input()
-'Minsk/Belarus'
-print('Enter your phone number:')
-g=input()
-'+375(29)356-55-89'
-print('Why did you decide to go to IT-school TeachMeSkills:')
-h=input()
-'I decided to make programming the main activity in my life'
-print('Last place of work:')
-i=input()
-'Solid Auto Service' 
+print('Enter year of birth:')
+y1 = int(input())
+1998
+print('Enter present year:')
+y2 = int(input())
+2021
+print(y2-y1, 'years')
+print('Enter month of birth:')
+m1 =int(input())
+'01'
+print('Enter present month:')
+m2 =int(input())
+'08'
+if m1<m2:
+    print(m2-m1, 'months')
+if m1>m2:
+    print(m1-m2, 'months')
+if m1==m2:
+    print(00, 'month')
+print('Enter day of birth:')
+d1 = int(input())
+14
+print('Enter present day:')
+d2 = int(input())
+26
+if d1>d2:
+    print(d1-d2, 'days')
+if d1<d2:
+    print(d2-d1, 'days')
+if d1==d2:
+    print(0, 'days')
