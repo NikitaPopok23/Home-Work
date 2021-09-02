@@ -32,5 +32,5 @@ while True:
         if question == 'y':
             continue
         else:
-            print ('До свидания')
+            print ('до свидания')
             break    
